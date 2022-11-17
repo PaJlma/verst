@@ -1,3 +1,371 @@
 body {
     margin: 0;
 }
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+header {
+    background: url("images/header/header-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1px 0 157px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__company {
+    margin-top: 20px;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-name {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #fff
+}
+
+.main-navigation {
+    display: flex;
+    align-self: center;
+    gap: 41px;
+}
+
+.navigation__item {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+}
+
+.main-title {
+    margin-top: 131px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.main-subtitle {
+    margin-top: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+header .a-button {
+    margin-top: 43px;
+    align-self: center;
+    padding: 12px 31px 12px 31px;
+    background-color: #DD783F;
+    border-radius: 3px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__sub-navigation {
+    padding: 22px 0 22px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-navigation__item {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #768088;
+}
+
+.main__news {
+    background-color: #F7F7F7;
+    padding-top: 1px;
+    padding-bottom: 108px;
+}
+
+.news__title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 188px;
+    padding-top: 16px;
+    border-bottom: 2px solid #DEDEDE;
+}
+
+#post1 {
+    background: url("images/features-posts/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#post2 {
+    background: url("images/features-posts/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news__features-posts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-posts__picture {
+    border-radius: 3px;
+    width: 480px;
+    height: 280px;
+    padding-bottom: 15px;
+}
+
+.picture__title {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 157px;
+    margin-left: 20px;
+}
+
+.picture__subtitle {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 20px;
+}
+
+.picture__bottom {
+    margin-top: 32px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.user {
+    width: 150px;
+    display: flex;
+}
+
+.featured-posts__picture .avatar {
+    align-self: center;
+    display: block;
+    width: 26px;
+    height: 26px;
+}
+
+.featured-posts__picture .name {
+    align-self: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+}
+
+.featured-posts__picture .date {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 180px;
+}
+
+.news__most-recent {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.news__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__picture {
+    width: 296px;
+    height: 150px;
+}
+
+.post__titles {
+    background-color: #FFFFFF;
+    height: 93px;
+    padding-top: 1px;
+}
+
+.post__title {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #101315;
+    margin-left: 13px;
+    margin-top: 14px;
+    width: 246px;
+}
+
+.post__subtitle {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #7A7A7A;
+    margin-top: 6px;
+    margin-left: 13px;
+    width: 246px;
+}
+
+.post__bottom {
+    background-color: #FCFCFC;
+    display: flex;
+    padding: 7px 0 7px 0;
+}
+
+.most-recent__post .user {
+    display: flex;
+    width: 150px;
+    margin-left: 13px;
+}
+
+.most-recent__post .avatar {
+    width: 26px;
+    height: 26px;
+    align-self: center;
+}
+
+.most-recent__post .name {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 35px;
+    color: #999999;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.most-recent__post .date {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    color: #999999;
+    align-self: center;
+    margin-left: 60px;
+}
+
+footer {
+    padding-top: 1px;
+    background: url("images/footer/footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .title {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.footer__title {
+    margin-top: 81px;
+}
+
+footer .title:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 188px;
+    padding-top: 16px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.footer__form {
+    display: flex;
+    align-self: center;
+    margin-top: 38px;
+}
+
+.footer__form input[type="email"] {
+    border-radius: 3px 0 0 3px;
+    width: 375px;
+    height: 50px;
+    padding-left: 35px;
+    border: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer__form input[type="submit"] {
+    width: 125px;
+    height: 52px;
+
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 0 3px 3px 0;
+    border: none;
+    color: #F8F8F8;
+}
+
+.footer__company-box {
+    margin-top: 90px;
+    background-color: rgba(35, 47, 56, 0.6);
+    padding: 31px 0 31px 0;
+}
+
+footer .navigation__item {
+    color: rgba(255, 255, 255, 0.6);
+}
