@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="null.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="null.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -68,9 +71,11 @@
     </main>
 
     <section id="image-block1" class="image-block">
-        <div class="image-block__text">
-            <h3 class="image-block__title">Reeding House</h3>
-            <p class="image-block__subtitle">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+        <div class="image-block__content">
+            <div class="image-block__text">
+                <h3 class="image-block__title">Reeding House</h3>
+                <p class="image-block__subtitle">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+            </div>
         </div>
     </section>
 
@@ -101,8 +106,12 @@
     </section>
 
     <section id="image-block2" class="image-block">
-        <h3 class="image-block__title">The marble staircase</h3>
-        <p class="image-block__subtitle">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+        <div class="image-block__content">
+            <div class="image-block__text">
+                <h3 class="image-block__title">The marble staircase</h3>
+                <p class="image-block__subtitle">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+            </div>
+        </div>
     </section>
 
     <section class="customers">
@@ -117,20 +126,22 @@
             <div class="customers_images">
                 <div class="images__block">
                     <img src="images/customers/1.svg" alt="1" class="images__image">
-                    <img src="images/customers/2.svg" alt="2" class="images__image">
+                    <img src="images/customers/2.svg" alt="4" class="images__image">
                 </div>
                 <div class="images__block">
-                    <img src="images/customers/3.svg" alt="3" class="images__image">
-                    <img src="images/customers/4.svg" alt="4" class="images__image">
+                    <img src="images/customers/3.svg" alt="2" class="images__image">
+                    <img src="images/customers/4.svg" alt="3" class="images__image">
                 </div>
             </div>
         </div>
     </section>
 
     <section class="image-block" id="image-block3">
-        <div class="image-block__text">
-            <h3 class="image-block__title">The swirling staircase</h3>
-            <p class="image-block__subtitle">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+        <div class="image-block__content">
+            <div class="image-block__text">
+                <h3 class="image-block__title">The marble staircase</h3>
+                <p class="image-block__subtitle">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+            </div>
         </div>
     </section>
 
@@ -203,8 +214,8 @@
     <section class="get-in-touch">
         <div class="get-in-touch__content">
             <div class="get-in-touch__block">
-                <p class="get-in-touch">Get in touch</p>
-                <h3 class="get-in-touch">Think we would be a good fit for your next project?</h3>
+                <p class="get-in-touch__title">Get in touch</p>
+                <h3 class="get-in-touch__text">Think we would be a good fit for your next project?</h3>
             </div>
             <a href="#" class="get-in-touch__button">Get in touch</a>
         </div>
@@ -216,10 +227,10 @@
             <p class="footer__powered">Powered by Webflow</p>
             <p class="rights">All rights reserved Wishbone+Partners, Inc. Licensing</p>
         </div>
-        <div class="footer__block">
-            <img src="images/footer/twitter.svg" alt="twitter" class="footer__img">
-            <img src="images/footer/instagram.svg" alt="instagram" class="footer__img">
-            <img src="images/footer/facebook.svg" alt="facebook" class="footer__img">
+        <div class="footer__image-block">
+            <a href="#"><img src="images/footer/twitter.svg" alt="twitter" class="footer__img"></a>
+            <a href="#"><img src="images/footer/instagram.svg" alt="instagram" class="footer__img"></a>
+            <a href="#"><img src="images/footer/facebook.svg" alt="facebook" class="footer__img"></a>
         </div>
     </footer>
 </body>
