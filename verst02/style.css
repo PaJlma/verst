@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    width: 100%;
 }
 
 h1, h2, h3, h4, p {
@@ -59,6 +60,8 @@ nav {
 
 .company-knowledge {
     background-color: #ECE7E4;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .company-knowledge__content {
