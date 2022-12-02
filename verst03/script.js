@@ -1,16 +1,13 @@
 const burger = document.querySelector('.burger');
-const burgerMenu = document.querySelector('.burger__menu');
-let ifActive = false;
 
-function onBurgerClick() {
-    if(ifActive === false) {
-        burger.classList.add('active');
-        ifActive = true;
+function onHamburgerClick(event) {
+    if(event.target.closest('.burger')) {
+        burger.classList.toggle('active');
     }
-    else if(ifActive === true) {
+
+    else if(!event.target.closest('.burger__item')) {
         burger.classList.remove('active');
-        ifActive = false;
     }
 }
 
-burger.addEventListener('click', onBurgerClick);
+burger.addEventListener('click', onHamburgerClick);
