@@ -178,7 +178,7 @@
 .victories__title {
     font-family: 'Reem Kufi', sans-serif;
     font-weight: 700;
-    font-size: 59px;
+    font-size: 3rem;
     line-height: 88px;
     text-align: center;
 
@@ -192,12 +192,18 @@
     gap: 255px;
 }
 
+.victories__gallery-svg {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
 .victories__gallery-title {
     max-width: 300px;
     margin: 0 auto;
     font-family: 'Reem Kufi', sans-serif;
     font-weight: 700;
-    font-size: 43px;
+    font-size: 2.5rem;
     line-height: 64px;
     text-align: center;
     margin-top: 34px;
@@ -322,7 +328,7 @@
 .new-people__title {
     font-family: 'Reem Kufi', sans-serif;
     font-weight: 700;
-    font-size: 59px;
+    font-size: 2.5rem;
     line-height: 88px;
 
     text-align: center;
@@ -333,7 +339,7 @@
 .new-people__subtitle {
     font-family: 'Reem Kufi', sans-serif;
     font-weight: 400;
-    font-size: 57px;
+    font-size: 2rem;
     line-height: 86px;
     text-align: center;
 
@@ -348,11 +354,11 @@
 }
 
 .new-people__form-item {
-    width: 863px;
+    width: 600px;
     margin: 0 auto;
     padding: 15px 0 15px 0;
     font-family: 'Reem Kufi', sans-serif;
-    font-size: 48px;
+    font-size: 2rem;
     line-height: 72px;
 
     border: 7px solid #48267C;
@@ -366,7 +372,7 @@
 }
 
 .new-people__form-item[type="submit"] {
-    width: 930px;
+    width: 670px;
     background-color: #48267C;
     color: #fff;
     transition: 200ms;
