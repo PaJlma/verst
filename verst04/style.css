@@ -391,8 +391,115 @@
     color: #48267C;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 950px) {
+    .user:after {
+        display: none;
+    }
+    .victories__gallery-svg {
+        height: 110px;
+        margin: 0 auto;
+        display: block;
+    }
+    .victories__gallery-title {
+        font-size: 2rem;
+    }
+    .error__search {
+        width: 600px;
+        height: 80px;
+    }
     .main__hr {
-        max-width: 900px;
+        max-width: 500px;
+    }
+    .new-people__form-item {
+        width: 600px;
+
+        font-size: 2rem;
+    }
+    .new-people__form-item[type="submit"] {
+        width: 670px;
+    }
+    .new-people__form-item[type="text"], .new-people__form-item[type="email"] {
+        height: 50px;
+    }
+}
+
+@media (max-width: 550px) {
+    .header__menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .header__search {
+        width: 300px;
+        order: 1;
+    }
+    .header__user {
+        order: -1;
+    }
+    .title-block__company-logo {
+        width: 320px;
+    }
+    .title-block__title {
+        font-size: 2rem;
+    }
+    .main__hr {
+        max-width: 300px;
+    }
+    .victories__title {
+        font-size: 3rem;
+    }
+    .victories__gallery {
+        gap: 40px;
+    }
+    .victories__gallery-svg {
+        height: 70px;
+        margin: 0 auto;
+        display: block;
+    }
+    .victories__gallery-title {
+        font-size: 1.5rem;
+    }
+    .error__title {
+        font-size: 2rem;
+    }
+    .error__svg {
+        width: 200px;
+    }
+    .error__subtitle {
+        font-size: 2rem;
+    }
+    .error__search {
+        width: 300px;
+        height: 80px;
+    }
+    .forum__title {
+        font-size: 2rem;
+    }
+    .forum__svg {
+        max-width: 200px;
+    }
+    .forum__try-it {
+        max-width: 200px;
+    }
+    .new-people__title {
+        font-size: 1.7rem;
+    }
+    .new-people__subtitle {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+    .new-people__form-item {
+        width: 300px;
+
+        font-size: 2rem;
+    }
+    .new-people__form-item[type="submit"] {
+        width: 370px;
+    }
+    .new-people__form-item[type="text"], .new-people__form-item[type="email"] {
+        height: 50px;
+    }
+    .footer__license-agreement {
+        font-size: 1rem;
     }
 }
