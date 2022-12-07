@@ -483,11 +483,11 @@
         max-width: 200px;
     }
     .new-people__title {
-        font-size: 1.7rem;
+        margin-top: -80px;
+        font-size: 2rem;
     }
     .new-people__subtitle {
-        font-size: 1.5rem;
-        margin-top: 0;
+        font-size: 1.7rem;
     }
     .new-people__form-item {
         width: 300px;
