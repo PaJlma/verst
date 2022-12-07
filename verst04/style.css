@@ -88,7 +88,17 @@
     position: absolute;
 }
 
-.user:hover .user__menu {
+/*.user:hover .user__menu {*/
+/*    display: block;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin-left: 0;*/
+/*    margin-right: 0;*/
+/*    top: 60px;*/
+/*    background-color: #1F0268;*/
+/*}*/
+
+.user.enable .user__menu {
     display: block;
     left: 0;
     right: 0;
@@ -96,6 +106,10 @@
     margin-right: 0;
     top: 60px;
     background-color: #1F0268;
+}
+
+.user.enable .user__name {
+    text-decoration: underline;
 }
 
 .menu__list {
