@@ -13,6 +13,7 @@
     background-image: url("images/main-background.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     padding-top: 1px;
     padding-bottom: 400px;
 }
