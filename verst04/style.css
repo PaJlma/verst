@@ -104,9 +104,16 @@
 
 .menu__item {
     display: flex;
-    align-items: center;
     padding: 14px 0 14px 0;
     cursor: pointer;
+}
+
+.menu__img-block {
+    padding: 0 0 0 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu__item:hover {
@@ -114,7 +121,10 @@
 }
 
 .menu__img {
-    padding-left: 24px;
+    /*padding-left: 24px;*/
+    height: 20px;
+    display: block;
+    margin: 0 auto;
 }
 
 .menu__href {
