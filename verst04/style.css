@@ -499,6 +499,9 @@
     }
     .new-people__form-item[type="text"], .new-people__form-item[type="email"] {
         height: 50px;
+        width: 330px;
+        padding-left: 20px;
+        font-size: 1.5rem;
     }
     .footer__license-agreement {
         font-size: 1rem;
