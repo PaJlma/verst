@@ -1,0 +1,583 @@
+body {
+    font-family: "Kreon", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("images/HEADER.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 18.875rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.wrapper {
+    max-width: 87.5rem;
+    margin: 0 auto;
+}
+
+.header__content {
+    padding-top: 40px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu__nav-ul {
+    display: flex;
+    gap: 2.8125rem;
+}
+
+.header-menu__nav-li {
+    position: relative;
+}
+
+.header-menu__nav-li:after {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 20px;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #F2282A;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transition: 200ms;
+}
+
+.header-menu__nav-li:hover.header-menu__nav-li:after {
+    opacity: 1;
+    transition: 200ms;
+}
+
+.header-menu__nav-a {
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header-nav__contacts-button {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 11px 0 11px 0;
+    width: 14.375rem;
+    transition: 200ms;
+    color: #FFFFFF;
+}
+
+.header-nav__contacts-button:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 200ms;
+}
+
+.header__title-block {
+    margin-top: 12.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-block__title {
+    font-weight: 700;
+    font-size: 3.125rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-block__subtitle {
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-block__get-in {
+    width: 14.375rem;
+    padding: 11px 0 11px 0;
+    border-radius: 10px;
+    background-color: #F2282A;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-align: center;
+    border: 3px solid #F2282A;
+    color: #FFFFFF;
+    align-self: center;
+    margin-top: 3.125rem;
+    transition: 200ms;
+}
+
+.title-block__get-in:hover {
+    background-color: unset;
+    transition: 200ms;
+}
+
+.main__content-gray {
+    background-color: #202020;
+}
+
+.service__title {
+    padding-top: 4.375rem;
+    font-weight: 700;
+    font-size: 2.8125rem;
+    line-height: 3.563rem;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.service__gallery-box {
+    display: flex;
+    flex-direction: column;
+    gap: 7.875rem;
+    margin-top: 4.813rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery__item {
+    max-width: 15.625rem;
+}
+
+.gallery__svg {
+    display: block;
+    margin: 0 auto;
+    height: 6.313rem;
+}
+
+.gallery__title {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin-top: 1.25rem;
+
+    color: #FFFFFF;
+}
+
+.main__team {
+    margin-top: 4.813rem;
+    border-left: 5px solid #F2282A;
+    border-right: 5px solid #F2282A;
+}
+
+.team__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.375rem;
+}
+
+.team__title {
+    font-weight: 700;
+    font-size: 2.813rem;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.team__block-container {
+    align-self: center;
+    margin-top: 3.563rem;
+    display: flex;
+    gap: 7.875rem;
+}
+
+.team__text {
+    font-size: 1.438rem;
+    line-height: 1.813rem;
+    max-width: 37.438rem;
+
+    color: #FFFFFF;
+}
+
+.team__team-block2-image {
+    margin-top: 2.063rem;
+}
+
+.main__stocks {
+    margin-top: 8.813rem;
+    padding-bottom: 6.5rem;
+}
+
+.stocks__title {
+    font-weight: 700;
+    font-size: 2.813rem;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.stocks-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.375rem;
+}
+
+.stocks-gallery__item {
+    border-radius: 15px;
+    max-width: 25rem;
+
+}
+
+.stocks-gallery__img {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
+    display: block;
+}
+
+.stocks__text-container {
+    background: #E4E4E4;
+    height: 15.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 15px 15px;
+    padding-top: 2.188rem;
+}
+
+.stocks__text {
+    max-width: 19.688rem;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    height: 6.5rem;
+
+    color: #000000;
+}
+
+.stocks__button {
+    margin: 0 auto;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.563rem;
+    text-align: center;
+    background: #F2282A;
+    border-radius: 10px;
+    width: 19.688rem;
+    padding: 11px 0 11px 0;
+    color: #FFFFFF;
+    margin-top: 34px;
+    transition: 200ms;
+    border: 3px solid #F2282A;
+}
+
+.stocks__button:hover {
+    background-color: unset;
+    transition: 200ms;
+    color: #F2282A;
+}
+
+.form {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 9.438rem;
+}
+
+.form__content {
+    padding-top: 3.563rem;
+}
+
+.form__title {
+    font-weight: 700;
+    font-size: 2.813rem;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.form__container {
+    background: rgba(228, 228, 228, 0.4);
+    backdrop-filter: blur(5.5px);
+    border-radius: 15px;
+    max-width: 31.25rem;
+    margin: 0 auto;
+    margin-top: 3.125rem;
+}
+
+.form__form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    padding-top: 3.438rem;
+    padding-bottom: 3.438rem;
+}
+
+::placeholder {
+    color: rgba(228, 228, 228, 0.8);
+}
+
+.form__input {
+    border: 3px solid #E4E4E4;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 25rem;
+    padding: 23px 0 23px 11px;
+    margin: 0 auto;
+    display: block;
+    background-color: unset;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.563rem;
+    color: rgba(228, 228, 228, 0.8);
+}
+
+.form__input[type="submit"] {
+    border: 3px solid #F2282A;
+    background: #F2282A;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 10px;
+    transition: 200ms;
+}
+
+.form__input[type="submit"]:hover {
+    border: 3px solid #F2282A;
+    background: unset;
+    border-radius: 10px;
+    color: #fff;
+    transition: 200ms;
+}
+
+.footer {
+    background: #202020;
+}
+
+.footer__content {
+    padding-top: 7.813rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7.813rem;
+}
+
+.footer__left {
+    display: flex;
+    gap: 5rem;
+}
+
+.footer-company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+
+.footer-company__img {
+    width: 19.625rem;
+}
+
+.social-network {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-nav__ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 3.125rem;
+}
+
+.footer-nav__li {
+    font-size: 1.563rem;
+
+    color: #FFFFFF;
+}
+
+.footer-place {
+    text-align: right;
+}
+
+.footer-place__tel {
+    font-weight: 700;
+    font-size: 3.313rem;
+    color: #FFFFFF;
+}
+
+.footer-place__place {
+    max-width: 26.875rem;
+    font-size: 25px;
+    line-height: 38px;
+    margin-top: 4rem;
+
+    color: #FFFFFF;
+}
+
+.menu {
+    display: none;
+    background-image: url("images/hamburger-menu.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 46px;
+    height: 47px;
+    position: relative;
+}
+
+.menu__container {
+    display: none;
+    background-color: #1B1A1A;
+    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+    right: 0;
+    top: 47px;
+    width: 150px;
+}
+
+.menu__item {
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+@media (max-width: 87.5rem) {
+    .wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 80.313rem) {
+    .stocks-gallery {
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    .stocks-gallery__item {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 75rem) {
+    .team__block-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 62.5rem) {
+    .header-menu__nav-ul {
+        display: none;
+    }
+    .header-nav__contacts-button {
+        display: none;
+    }
+    .menu {
+        display: block;
+        order: -1;
+    }
+    .header-menu__company-logo {
+        order: 1;
+    }
+    .menu.enable .menu__container {
+        display: block;
+    }
+    .menu__item:hover {
+        background-color: #2E2E2E;
+        cursor: pointer;
+    }
+    .footer__content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-place {
+        text-align: center;
+    }
+}
+
+@media (max-width: 40.625rem) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .team__block {
+        align-self: center;
+    }
+    .team__team-block1-image {
+        width: 300px;
+    }
+    .team__text {
+        text-align: center;
+    }
+    .team__team-block2-image {
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+    }
+    .main__team {
+        border: none;
+    }
+}
+
+@media (max-width: 34.375rem) {
+    .gallery {
+        flex-direction: column;
+        align-self: center;
+        gap: 40px;
+    }
+    .team__team-block2-image {
+        width: 400px;
+    }
+    .form__container {
+        max-width: 300px;
+    }
+    .form__input {
+        width: 270px;
+    }
+    .footer-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 25rem) {
+    .team__team-block2-image {
+        width: 300px;
+    }
+    .stocks-gallery__item {
+        max-width: 300px;
+    }
+    .stocks-gallery__img {
+        width: 300px;
+    }
+    .stocks__text {
+        max-width: 275px;
+    }
+    .stocks__button {
+        width: 275px;
+    }
+}
