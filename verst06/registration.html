@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Heebo:wght@400;700&family=Jockey+One&display=swap" rel="stylesheet">
+    <title>Regisration</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -25,10 +28,10 @@
     <div class="main wrapper flex">
         <div class="login">
             <h2 class="login__title">Зарегистрироваться</h2>
-            <input type="text" class="login__place login__name" placeholder="Имя аккаунта">
-            <input type="email" class="login__place login__email" placeholder="Email">
-            <input type="password" class="login__place login__password" placeholder="Пароль">
-            <input type="password" class="login__place login__password" placeholder="Повторите пароль">
+            <input type="text" class="login__place login__name" placeholder="Имя аккаунта" required>
+            <input type="email" class="login__place login__email" placeholder="Email" required>
+            <input type="password" class="login__place login__password" placeholder="Пароль" required>
+            <input type="password" class="login__place login__password" placeholder="Повторите пароль" required>
             <button type="submit" class="login__place login__submit">Отправить</button>
             <a href="login.html" class="reglog_a">Войти</a>
         </div>
