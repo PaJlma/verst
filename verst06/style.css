@@ -396,17 +396,6 @@ body {
     padding: 42px;
 }
 
-.email:before {
-    content: "";
-    width: 15px;
-    height: 15px;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    background-image: url("images/reglog/mail.svg");
-    right: 1px;
-}
-
 .logreg__input-box {
     position: relative;
 }
@@ -423,9 +412,21 @@ body {
 }
 
 .login__place:focus ~ label,
-.login__place:focus ~ :valid {
+.login__place:valid ~ label{
     top: 0;
     transition: 200ms;
+}
+
+.input-checkbox {
+    background: var(--vs-yellow);
+    border-radius: 5px;
+}
+
+.input-checkbox__label {
+    font-family: var(--vs-russian-font);
+    font-size: 10px;
+    margin-left: 10px;
+    color: var(--vs-yellow);
 }
 
 .login__place {
@@ -444,6 +445,16 @@ body {
     outline: 0;
 
     color: var(--vs-yellow);
+}
+
+.reglog__input-img {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 25px;
+    left: 90%;
+    bottom: 0;
+    pointer-events: none;
 }
 
 .login__submit {

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="logreg-body">
 <header>
     <div class="header wrapper flex">
         <div class="header__left-side">
@@ -27,13 +27,35 @@
 <main>
     <div class="main wrapper flex">
         <div class="login">
-            <h2 class="login__title">Зарегистрироваться</h2>
-            <input type="text" class="login__place login__name" placeholder="Имя аккаунта" required>
-            <input type="email" class="login__place login__email" placeholder="Email" required>
-            <input type="password" class="login__place login__password" placeholder="Пароль" required>
-            <input type="password" class="login__place login__password" placeholder="Повторите пароль" required>
-            <button type="submit" class="login__place login__submit">Отправить</button>
-            <a href="login.html" class="reglog_a">Войти</a>
+            <form action="#" class="logreg-form">
+                <h2 class="login__title">Зарегистрироваться</h2>
+                <div class="logreg__input-box">
+                    <input type="text" class="login__place login__password password" required min="1">
+                    <label class="input__label">Account name</label>
+                    <img src="images/reglog/account.svg" alt="icon" class="reglog__input-img">
+                </div>
+                <div class="logreg__input-box">
+                    <input type="text" class="login__place login__email email" required min="1">
+                    <label class="input__label">Email</label>
+                    <img src="images/reglog/mail.svg" alt="icon" class="reglog__input-img">
+                </div>
+                <div class="logreg__input-box">
+                    <input type="password" class="login__place login__password password" required min="1">
+                    <label class="input__label">Password</label>
+                    <img src="images/reglog/password.svg" alt="icon" class="reglog__input-img">
+                </div>
+                <div class="logreg__input-box">
+                    <input type="password" class="login__place login__password password" required min="1">
+                    <label class="input__label">Repeat password</label>
+                    <img src="images/reglog/password.svg" alt="icon" class="reglog__input-img">
+                </div>
+                <div class="logreg__input-box flex align-items-center">
+                    <input type="checkbox" class="input-checkbox">
+                    <label class="input-checkbox__label">Запомнить меня</label>
+                </div>
+                <button type="submit" class="login__submit">Отправить</button>
+                <a href="registration.html" class="reglog_a">Есть аккаунт?</a>
+            </form>
         </div>
     </div>
 </main>
