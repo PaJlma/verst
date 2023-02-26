@@ -60,7 +60,12 @@ body {
 
 .header__logo {
     padding: 5px 10px 5px 10px;
-    border-radius: 20px;
+    background-image: url("images/logo.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 135px 35px;
+    width: 155px;
+    height: 35px;
     transition: 200ms;
 }
 
@@ -511,6 +516,10 @@ body {
     bottom: 0;
 }
 
+.footer-nav__svg-logo {
+    display: none;
+}
+
 @media (max-width: 950px) {
     .header__registration {
         display: none;
@@ -535,13 +544,19 @@ body {
     .footer-nav__svg-logo {
         width: 100px;
     }
-
     .header__logo {
-        display: none;
+        padding: 5px 10px 5px 10px;
+        background-image: url("images/mini-logo.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 35px 35px;
+        width: 35px;
+        height: 35px;
+        transition: 200ms;
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 590px) {
     .header__login {
         display: none;
     }
@@ -567,5 +582,9 @@ body {
 
     .login__submit {
         width: 100%;
+    }
+
+    .header__search {
+        width: 225px;
     }
 }
