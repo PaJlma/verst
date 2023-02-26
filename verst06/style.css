@@ -418,7 +418,8 @@ body {
 }
 
 .input-checkbox {
-    background: var(--vs-yellow);
+    background-color: var(--vs-yellow);
+    border: 1px solid var(--vs-yellow);
     border-radius: 5px;
 }
 
@@ -555,5 +556,16 @@ body {
 @media (max-width: 410px) {
     .header__settings {
         display: none;
+    }
+    .login {
+        width: 270px;
+    }
+
+    .login__place {
+        width: 90%;
+    }
+
+    .login__submit {
+        width: 100%;
     }
 }
